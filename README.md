@@ -1,16 +1,11 @@
 # cce106_pavlova_sanao
 
-A new Flutter project.
+A Flutter project that creates a simple pavlova recipe activity.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+This project is part of the CCE106 course activity, designed to build a mobile app screen showcasing a "Strawberry Pavlova" recipe. The app displays an image of the dessert, along with details such as description, ratings, duration, servings, and difficulty level.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Strawberry Pavlova](assets/Pavlova_Sanao.png)

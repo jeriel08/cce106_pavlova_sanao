@@ -6,7 +6,13 @@ class Pavlova extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Sanao_Activity1'), centerTitle: true),
+      appBar: AppBar(
+        title: Text(
+          'Sanao_Activity1',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
+        centerTitle: true,
+      ),
       body: Padding(
         padding: const EdgeInsets.all(16),
         child: Column(
@@ -42,7 +48,7 @@ class Pavlova extends StatelessWidget {
                   'Pavlova is a meringue-based dessert named after the Russian ballerina Anna Pavlova. It features a crisp crust and soft, light inside, topped with fruit and whipped cream.',
                   style: TextStyle(fontSize: 16, height: 1.5),
                 ),
-                const SizedBox(height: 16),
+                const SizedBox(height: 24),
                 Center(child: buildRatingRow()),
                 const SizedBox(height: 16),
                 buildRowTabs(),
